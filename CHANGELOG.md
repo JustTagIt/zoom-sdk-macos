@@ -94,6 +94,7 @@ You do not need to secret base64 encoded your signature. Once the JWT token is g
 * Added a new interface to change the app's appearance
  * `- (ZoomSDKError)setUIAppearance:(ZoomSDKUIAppearance)appearance;`
 
+* Removed the watermark by default. If you wish to retain the Zoom watermark, please contact us via developersupport@zoom.us.
 
 ## Changed && Fixed:
 * Fixed an issue that the attendee can still hear chime when a participant joins the meeting even though the corresponding setting is disabled.
